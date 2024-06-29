@@ -1,7 +1,7 @@
 {
   "name": "tanvir",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,9 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "sslcommerz": "^1.6.6"
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.19.2",
+    "sslcommerz": "^1.7.0",
+    "sslcommerz-lts": "^1.1.0"
   }
 }
